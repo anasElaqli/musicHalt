@@ -1,0 +1,90 @@
+header {
+  background: rgb(2, 175, 214);
+  background: linear-gradient(to right,
+      violet,
+      rgb(101, 2, 172),
+      rgb(3, 154, 162),
+      rgb(3, 154, 162),
+      rgb(101, 2, 172),
+      violet);
+  padding-bottom: 2rem;
+  border-bottom: rgb(220, 220, 220) 1px solid;
+}
+
+.brand h1 {
+  margin-bottom: 0;
+  font-family: 'Krona One', sans-serif;
+  text-shadow: -1px 1px 0 #000,
+    2px 2px 0 rgb(1, 195, 248),
+    2px -2px 0 rgb(1, 255, 247),
+    -2px -2px 0 rgb(0, 229, 255);
+  color: rgb(192, 3, 255);
+}
+
+.brand h3 {
+  margin-top: 3px;
+  text-shadow: 2px 2px rgb(95, 5, 130);
+}
+
+input {
+  font-size: 1rem;
+  width: 40%;
+  margin: 0 20px;
+}
+
+#searchInput {
+  border-radius: 1rem;
+  border: 1px #333 solid;
+  height: 2.1rem;
+  padding-left: 1.5rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#search {
+  background-color: rgb(154, 2, 205);
+  color: aliceblue;
+  border-color: rgb(2, 215, 226);
+  border-radius: 1rem;
+  font-size: 1em;
+  height: 1.8rem;
+}
+
+body {
+  background-color: #333;
+  font-family: 'Nanum Gothic', sans-serif;
+  display: grid;
+  text-align: center;
+  font-size: 1.1em;
+  color: aliceblue;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-top: 10px;
+
+}
+
+@media (max-width: 768px) {
+  main {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+}
+
+img {
+  border-radius: 3px;
+  width: 110px;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+  background-color: rgb(177, 48, 221);
+  color: #000;
+}
+
+
